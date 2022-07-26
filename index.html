@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>tailwind</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                heading:'#b1c7f4',
+                npm:'#b75c92',
+                something:'#182234',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="bg-slate-900">
+
+    <!-- Navbr start -->
+     <section class="header">
+        <div class="header-content flex justify-between items-center px-5">
+            <div class="header-logo">
+                <img src="images/92447cf8-3365-4743-aa87-081a735fcf69.png" alt="">
+            </div>
+            <div class="header-search w-96">
+                <input class="p-2 rounded-md w-96 bg-[#1a2537]" type="text" placeholder="Search docs">
+            </div>
+            <div class="header-icon flex">
+                <img class="w-12 h-auto" src="images/c36cc577-7e52-4a65-992f-fdc8f7def562.png" alt="">
+                <img class="w-12 h-auto" src="images/b41320f5-01a3-4633-a1f3-d785b600fc16.png" alt="">
+            </div>
+        </div>
+     </section>
+     <!-- Navbr end -->
+
+
+
+
+     <!-- Banner start -->
+
+    <section class=" main-banner py-20">
+        <div class="container mx-auto">
+            <div class="banner  flex justify-between items-center">
+                <div class="banner-left"> 
+                    <h1 class="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">Never miss the cache again.</h1>
+                    <p class="mt-3 text-2xl tracking-tight text-slate-400">Cache every single thing your app could ever do ahead of time,<br>so your code never even has to run at all.</p>
+                    <div class="banner-left-btn mt-8 flex gap-5">
+                        <a class="bg-sky-300 py-3 px-5 text-sm  font-semibold rounded-full hover:bg-sky-200" href="#">Get started</a>
+                        <a class="rounded-full bg-slate-800 py-3 px-5 text-white text-sm font-semibold hover:bg-slate-700" href="3">View on github</a>
+                    </div>
+                </div>
+                <div class="banner-right"> 
+                    <img src="images/38af112e-276b-40f0-8a88-fa145396ff34.png" alt="">
+                </div>
+             </div>
+        </div>
+    </section>
+
+     <!-- Banner End -->
+
+
+     <!-- main body start -->
+
+    <section class=" main-body py-32">
+        <div class="container mx-auto">
+              <div class="main-body grid grid-cols-4 gap-10">
+
+                <div class="body-item">
+                   <nav>
+                    <h2 class="font-medium text-white pb-3">Introduction</h2>
+                    <ul class="mx-5 pb-7">
+                        <li class="text-slate-500 ftext-md pb-2 hover:text-slate-400
+                        ">Get stated</li>
+                        <li class="text-slate-500 text-md hover:text-slate-400
+                        ">Installation</li>
+                    </ul>
+                   </nav>
+                 
+                   <nav>
+                    <h2 class="font-medium text-white pb-3">Core concepts</h2>
+                    <ul class="mx-5 pb-7">
+                        <li class="text-slate-500 ftext-md pb-2 hover:text-slate-400
+                        ">Understanding catching</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Predicting user behavior</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Basics of time-travel</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Introduction to string theory</li>
+                         <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">The butterfly effect</li>
+                    </ul>
+                   </nav>
+
+                   <nav>
+                    <h2 class="font-medium text-white pb-3">Advanced guides</h2>
+                    <ul class="mx-5 pb-7">
+                        <li class="text-slate-500 ftext-md pb-2 hover:text-slate-400
+                        ">Writing plugins </li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Neuralink integration</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Temporal paradoxes</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Testing</li>
+                         <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Compile-time caching</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Predictive data generation</li>
+                    </ul>
+                   </nav>
+
+                   <nav>
+                    <h2 class="font-medium text-white pb-3">API reference</h2>
+                    <ul class="mx-5 pb-7">
+                        <li class="text-slate-500 ftext-md pb-2 hover:text-slate-400
+                        ">CacheAdvance.predict()</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">CacheAdvance.flush()</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">CacheAdvance.revert()</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">CacheAdvance.regret()</li>          
+                    </ul>
+                   </nav>
+
+
+                   <nav>
+                    <h2 class="font-medium text-white pb-3">Contributing</h2>
+                    <ul class="mx-5 pb-7">
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">How to contribute</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Architecture guide</li>
+                        <li class="text-slate-500 text-md pb-2 hover:text-slate-400
+                        ">Design principles</li>        
+                    </ul>
+                   </nav>
+                  
+                 
+                </div>
+
+                <div class="body-item col-span-2">
+
+                  <div class="body-center ">
+                    <p class="text-sm font-medium text-sky-500 pb-3">Introduction</p>
+                    <h1 class="text-3xl text-white font-medium pb-5">Getting started </h1>
+                    <p class="text-lg text-slate-300 font-xl ">Learn how to get CacheAdvance set up in your project in under thirty minutes or it's free.</p>
+                    <div class="body-center-gr py-10 grid grid-cols-2 gap-4 ">
+
+                        <div class="body-center-gr-item bg-[#1e293b] rounded-lg p-5">
+                            <img src="images/fe106652-f52a-4dad-b83f-1d08dc7af309.png" alt="">
+                            <h3 class="text-slate-200 text-lg font-semibold py-3">Installation</h3>
+                            <p class="text-slate-400 text-md">Step-by-step guides to setting up your system and installing the library.</p>
+                        </div>
+                        <div class="body-center-gr-item bg-[#1e293b] rounded-lg p-5">
+                            <img src="images/b9205dd9-3254-4902-a19b-cd688a99de73.png" alt="">
+                            <h3 class="text-slate-200 text-lg font-semibold py-3">Architecture guide</h3>
+                            <p class="text-slate-400 text-md">Learn how the internals work and contribute.</p>
+                        </div>
+                        <div class="body-center-gr-item bg-[#1e293b] rounded-lg p-5">
+                            <img src="images/44283f3a-65ac-49df-b76d-7c6027afa306.png" alt="">
+                            <h3 class="text-slate-200 text-lg font-semibold py-3">Plugin</h3>
+                            <p class="text-slate-400 text-md">Extend the library with third-party plugins or write your own.</p>
+                        </div>
+                        <div class="body-center-gr-item bg-[#1e293b] rounded-lg p-5">
+                            <img src="images/3c096947-09b0-4199-85d0-2d37838593f3.png" alt="">
+                            <h3 class="text-slate-200 text-lg font-semibold py-3">API reference</h3>
+                            <p class="text-slate-400 text-md">Learn to easily customize and modify your app's visual design to fit your brand.</p>
+                        </div>                        
+                   </div>
+                   <p class="text-slate-300 text-lg font-lg">Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste.</p>
+                   
+                   <hr class="my-12 border-slate-700">
+
+                   <div>
+                    <h2 class="text-3xl text-white  font-semibold pb-5 ">Quick start</h2>
+                    <p class="text-slate-400 text-md pb-6">Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.</p>
+                   </div>
+                   <div>
+                    <h2 class="text-3xl text-white  font-semibold pb-5 ">Installing dependencies</h2>
+                    <p class="text-slate-400 text-md pb-6">Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
+                   </div>
+                   <div class="bg-slate-700 p-5 rounded-lg">
+                    <p class="text-white text-lg"> <span class="text-npm">npm install</span> @tailwindlabs/cache-advance</p>
+                   </div>
+                   <p class="text-slate-400 text-md py-6">Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.</p>
+                   <div class="bad-happend bg-something flex p-5 rounded-lg">
+                    <div class="bad-img ">
+                    <img class="w-40 h-100" src="images/c4a0d674-f647-478a-a19f-596c28caefab.png" alt="">
+                   </div>
+                   <div class="bad-content pl-3">
+                    <h2 class="text-2xl text-yellow-600 font-semibold">Oh no! Something bad happened!</h2>
+                    <p class="text-slate-400 text-md py-3">This is what a disclaimer message looks like. You might want to include inline code in it. Or maybe you’ll want to include a link in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.</p>
+                   </div>
+                   </div>
+                   <div>
+                    <h2 class="text-3xl text-white  font-semibold pt-6 pb-5">Configuring the library</h2>
+                    <p class="text-slate-400 text-md pb-6"> Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+                    </p>
+                   </div>
+                  <div class="">
+                    <img class="" src="images/acad5e6b-2822-4a66-962f-739612a7a9e5.png" 
+                    alt="">
+                  </div>
+                  <p class="text-slate-400 text-md py-6"> Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.</p>
+                  <div class="bad-happend bg-something flex p-5 rounded-lg">
+                    <div class="bad-img ">
+                    <img class="w-40 h-100" src="images/be89c8a7-c193-44dc-b9ae-2d04a77826bd.png" alt="">
+                   </div>
+                   <div class="bad-content pl-3">
+                    <h2 class="text-2xl text-blue-600 font-semibold">You should know!</h2>
+                    <p class="text-slate-400 text-md py-3">This is what a disclaimer message looks like. You might want to 
+                  include inline code in it. Or maybe you’ll want to include a link in it. I don’t think we should get too 
+                  carried away with other scenarios like lists or tables — that would be silly.</p>
+                   </div>
+                   </div>
+
+                  </div>
+                </div>
+
+                <div class="body-item-three">
+                   <nav>
+                    <h2 class="font-medium text-white pb-3">On this page</h2>
+                    <ul class="mx-5">        
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Quick start</li>
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Installing dependencies</li>
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Configuring the library</li>
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Basic usage</li>
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Your first cache</li>
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Clearing the cache</li>
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Adding middleware</li>
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Getting help</li>
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Submit an issue</li>
+                      <li class="text-slate-500 text-md pb-2 hover:text-slate-400">Join the community</li>
+                    </ul>
+                   </nav>
+                </div>  </div>
+        </div>
+    </section>
+
+
+
+     <!-- main body end -->
+</body>
+</html>

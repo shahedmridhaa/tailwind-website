@@ -1,0 +1,12 @@
+.main-banner{
+    background-image: url(./images/0-dark@tinypng.d78c08ed9d85e5e85d0b5518dbc25b1b.png);
+    background-size:cover;
+    position: center center;
+    background-repeat: no-repeat;
+}
+.body-item-three{
+    background-image: url(./images/blur-cyan.d28a5585.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
